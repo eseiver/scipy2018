@@ -1,8 +1,8 @@
 ## Title: Text and data mining scientific articles with allofplos
 
 ## Short Abstract
-allofplos is a Python package for maintaining an always up-to-date set of all 227,000+ articles published by the Public Library of Science (PLOS), a non-profit Open Access science publisher with the single largest journal in the world. allofplos also provides tools to quickly and easily parse these XML articles for analysis.
-This talk will cover the JATS XML standard for scientific publishing, how to use allofplos to iterate through PLOS articles and their common metadata fields, and how to construct more complex XML queries with XPath.
+Mining scientific articles is hard when many of them are inaccessible behind paywalls. The Public Library of Science (PLOS) is a non-profit Open Access science publisher of the single largest journal (*PLOS ONE*), whose articles are all freely available to read and re-use. allofplos is a Python package for maintaining a constantly growing collection of PLOS's 227,000+ articles. It also quickly and easily parses these article files into Python data structures.
+This talk will cover how allofplos keeps your articles up-to-date, and how it analyzes common article metadata to fuel your meta-research.
 ## Long Abstract
 ### Background/motivation
 #### Why mine scientific articles?
